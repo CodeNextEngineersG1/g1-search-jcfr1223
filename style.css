@@ -34,3 +34,15 @@ body {
 #display h2 {
   text-align: center;
 }
+
+#auto-suggestions {
+  display: none;
+  border: 1px solid gray;
+  margin-left: 0 auto;
+  max-width: 25%;
+}
+
+.suggestions{
+  background-color: transparent;
+  border: none;
+}
