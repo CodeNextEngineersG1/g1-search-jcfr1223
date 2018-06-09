@@ -38,11 +38,19 @@ body {
 #auto-suggestions {
   display: none;
   border: 1px solid gray;
-  margin-left: 0 auto;
+  margin: 0 auto;
   max-width: 25%;
 }
 
 .suggestions{
   background-color: transparent;
   border: none;
+}
+
+.suggestions:focus {
+  outline: none;
+}
+
+.suggestions:hover {
+  color: #ff0000
 }

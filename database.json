@@ -1,17 +1,37 @@
 [
   {
-    "replace":"this",
-    "with":"your",
-    "own":"data"
+    "name": "Veronica Lodge",
+    "age": "15",
+    "relationship": "with Archie Andrews",
+    "picture": "img/vlodge8.jpg",
+    "bio": "Veronica Cecilia Lodge is a main character on Riverdale. Veronica is a student at Riverdale High School. She moved from New York to her mother's hometown of Riverdale due to her father's arrest and subsequent incarceration. She struggles to find the truth behind her father's loyalties and intentions, as she fears what will happen once he is released from prison and back home with them. Meanwhile, she's also trying to reform herself into a better person. She is currently in a         relationship with Archie Andrews. Ever since Mr. Andrews was shot, Veronica has looked at her parents as prime suspects. As she looks upon both her mother and father as criminals based on her past experiences with them both. Accusing them of hiring a hit man on Fred, due to his refusal of selling his shares of the company upon Hermione's request. With the discovery of her parents' secret purchase of Pop's Chock'lit Shoppe, Veronica was able persuade them into granting her a more involved role in Lodge Industries.Not long after being accepted into her father's inner circle, Veronica would soon realize the truth behind his true intentions for Riverdale and how he handled his business deals. His actions later went on to effect how people viewed Veronica as she had lied to many of them. Determined to make up for her father's wrong-doings, Veronica attempted to stop his monopolizing of the Southside. She did this by purchasing the Whyte Wyrm and later using it to cut a deal with her father for the Chock'lit Shoppe in exchange. Hiram agreed to make the exchange, but as a result of this, he also stripped Veronica of all her duties in regards to Lodge Industries, as well as cutting her off completely from using his money."
   },
   {
-    "replace":"this",
-    "with":"your",
-    "own":"data"
+    "name": "Archie Andrews",
+    "age": "15",
+    "relationship": "with Veronica Lodge",
+    "picture": "img/archie.jpeg",
+    "bio": "Archie is a student at Riverdale High School, a budding musician, and a football player for the Riverdale Bulldogs. His team number was number nine, given to him by Coach Clayton. This number was originally Jason Blossom's jersey, and so Archie took it upon himself to retire the jersey in Jason's honor and took the number seventeen in its place. Archie used to be the Captain of the football team but decided to defer his status as captain to Reggie Mantle after he felt more of an affinity with his music. Archie has been best friends with Jughead Jones and Betty Cooper since childhood. Betty develops feelings for Archie, in she ends up revealing to him. However, he doesn't reciprocate her feelings and decides to stay just friends with Betty, which causes minor temporary strain in their relationship. He instead is drawn to the new rich girl named Veronica who had just moved to Riverdale from New York following the arrest of her wealthy billionaire father Hiram Lodge after he committed fraud and embezzlement."
   },
   {
-    "replace":"this",
-    "with":"your",
-    "own":"data"
+    "name": "Betty Cooper/Blossom",
+    "age": "15",
+    "relationship": "with Jughead Jones",
+    "picture": "img/Betty-Cooper-1182361.jpg",
+    "bio": "Betty is a student at Riverdale High School and longtime best friend of Archie Andrews, Jughead Jones, Kevin Keller and new girl Veronica Lodge. She is also a River Vixen at Riverdale High as well as an editor for the Register, with her parents Hal and Alice Cooper. She's the girlfriend of Jughead Jones. She also the aunt to Jason and Polly's twin babies. She's also the youngest sibling to her sister, Polly, and older half-brother, Charles Smith."
+  },
+  {
+    "name": "Jughead Jones",
+    "age": "15",
+    "relationship": "with Betty Cooper",
+    "picture": "img/jughead.png",
+    "bio": "Jughead was a sophomore at Riverdale High School, but following the arrest of his father FP Jones, the leader of the Southside Serpents, he was placed into foster care and, as a result, had to transfer to Southside High. While attending the gang and drug-infested high school, he re-opened the school newspaper, the Red and Black, where he was an editor, alongside new recruit, Toni Topaz, the newspaper's photographer, with Robert Phillips, their adviser until his arrest. However, with the closing of Southside High, Jughead has since returned to Riverdale High. He is a close friend of Archie Andrews and Betty Cooper, with whom he’s currently in a relationship with. He is also a member of the Southside Serpents, which he recently joined following his father's arrest, despite being advised against it, which he has yet to be reprimanded for."
+  },
+  {
+    "name": "Cheryl Blossom",
+    "age": "17",
+    "relationship": "with Toni Topaz",
+    "picture": "img/image.jpg",
+    "bio": "Cheryl is the daughter of Clifford and Penelope Blossom, and the twin sister of the late Jason Blossom, who suffered a tragic demise mysteriously on July 11th. Cheryl's relationship with her family seemed to be quite strained ever since Jason's death. Her mother blamed her for assisting Jason in his attempt to run away from Riverdale, which essentially is what led to his demise. Cheryl's father thinks of her as a train wreck in comparison to Jason, who was considered the Golden Boy. She is a student, head cheerleader of the River Vixens and the self-proclaimed Queen Bee at Riverdale High School, as well as the aunt to Jason and Polly's twin babies. Cheryl is in a relationship with Toni Topaz and has recently joined the Southside Serpents."
   }
 ]

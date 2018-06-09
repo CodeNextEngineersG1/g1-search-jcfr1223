@@ -1,41 +1,4 @@
-let database = [
-  {
-    name: "Veronica Lodge",
-    age: "15",
-    relationship: "with Archie Andrews",
-    picture: "img/vlodge8.jpg",
-    bio: "tbd"
-  },
-  {
-    name: "Archie Andrews",
-    age: "15",
-    relationship: "with Veronica Lodge",
-    picture: "img/archie.jpeg",
-    bio: "tbd"
-  },
-  {
-    name: "Betty Cooper/Blossom",
-    age: "15",
-    relationship: "with Jughead Jones",
-    picture: "img/Betty-Cooper-1182361.jpg",
-    bio: "tbd"
-  },
-  {
-    name: "Jughead Jones",
-    age: "15",
-    relationship: "with Betty Cooper",
-    picture: "img/jughead.png",
-    bio: "tbd"
-  },
-  {
-    name: "Cheryl Blossom",
-    age: "17",
-    relationship: "with Toni Topaz",
-    picture: "img/image.jpg",
-    bio: "tbd"
-  }
-];
-
+let database;
 let searchBar = document.getElementById("search-bar");
 let searchButton = document.getElementById("search-button");
 let autoSuggestions = document.getElementById("auto-suggestions");
@@ -46,6 +9,25 @@ console.log(searchBar);
 searchBar.addEventListener("keypress", checkKey);
 searchButton.addEventListener("click", processInput);
 searchBar.addEventListener("input", getAutoSuggestions);
+
+loadData();
+
+function loadData() {
+  searchBar.style.display = "none";
+  searchButton.style.display = "none";
+  fetch("database.json")
+  .then(function(response) {
+    response.json()
+    .then(function(jsonObj) {
+      database = jsonObj;
+      console.log("Database Loaded Successfully");
+    }).then(function() {
+      searchBar.style.display = "block";
+      searchButton.style.display = "block";
+    })
+  });
+}
+
 
 function getAutoSuggestions() {
   let cleanedInput = searchBar.value.toLowerCase().trim();
@@ -76,7 +58,7 @@ function getAutoSuggestions() {
 
 function activateSuggestionButton(button, record) {
   button.addEventListener("click", function() {
-    displayRecord();
+    displayRecord(record);
     autoSuggestions.innerHTML = "";
     autoSuggestions.style.display = "none";
     searchBar.value = "";
@@ -87,8 +69,8 @@ function getSuggestions(cleanedInput) {
   let suggestions = [];
   for (let i = 0; i < suggestion.length; i++){
     let cleanedRecordName = suggestion.value.toLowerCase().trim();
-    if (cleanedRecordName.startsWith(cleanedRecordName) && cleanedRecordName > 0) {
-      suggestions.push(database[i])
+    if (cleanedRecordName.startsWith(cleanedInput) && cleanedInput > 0) {
+      suggestions.push(database[i]);
     }
     return suggestions;
   }
@@ -164,6 +146,8 @@ function displaySuggestions(suggestions) {
     recordPicture.src = databaseRecord.picture;
     let recordBio = document.createElement("h2");
     recordBio.innerHTML = databaseRecord.bio;
+
+    display.innerHTML = "";
 
     display.appendChild(recordName);
     display.appendChild(recordAge);
